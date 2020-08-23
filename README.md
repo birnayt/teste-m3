@@ -41,6 +41,7 @@ Feito por Lucas Rodrigues.
 
 Entre em contato!
 [Linkedin](https://www.linkedin.com/in/lucas-farias-rodrigues-4a626a16a/)
+
 [E-mail](lucasfariasrodrigues25@gmail.com)
 
 ---
