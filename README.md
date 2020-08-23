@@ -36,9 +36,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto sob licença [MIT](./LICENSE).
 
 Feito por Lucas Rodrigues.
+
+---
 
 Entre em contato!
 
