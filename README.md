@@ -1,4 +1,4 @@
-# 💻Sobre o projeto
+# 💻 Sobre o projeto
 
 O projeto foi desenvolvido como um teste para a vaga de estaǵio de desenvolvedor front-end na [Agência M3](https://agenciam3.com/)
 
