@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M3 Performance Digital</title>
+  <link href="./css/style.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/dd96ebd961.js" crossorigin="anonymous"></script>
+  <script type="module" src="./js/index.min.js"></script>
+  <div class="models">
+    <div class="products-model">
+      <img src="" alt="" class="imgUri">
+      <p class="name">Nome</p>
+      <p class="price">Preço</p>
+      <p class="installment">Parcelas</p>
+      <button type="submit" class="buy">COMPRAR</button>
+    </div>
+  </div>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div id="logoHeader">
+        <a href="/"><img src="./imgs/logo-m3.png" alt="Logo" /></a>
+      </div>
+      <div class="cart">
+        <img src="./imgs/bag.png" alt="Bag" class="bag" />
+        <img src="./imgs/bagNumber.png" class="invisible bagNumberArea" />
+        <span class="bagNumber"></span>
+      </div>
+    </header>
+
+    <hr class="divider-header" />
+
+    <main>
+      <div class="filter-container">
+        <h2>Blusas</h2>
+        <div class="filter-box colors">
+          <h4>CORES</h4>
+          <label class="yellow checkbox">
+            <input type="checkbox" class="yellow filterColorsAndSize">
+            <span class="yellow">Amarelo</span>
+          </label>
+          <label class="blue checkbox">
+            <input type="checkbox" class="blue filterColorsAndSize">
+            <span class="blue">Azul</span>
+          </label>
+          <label class="white checkbox">
+            <input type="checkbox" class="white filterColorsAndSize">
+            <span class="white">Branco</span>
+          </label>
+          <label class="grey checkbox" class="grey">
+            <input type="checkbox" class="grey filterColorsAndSize">
+            <span class="grey">Cinza</span>
+          </label>
+          <label class="orange checkbox">
+            <input type="checkbox" class="orange filterColorsAndSize">
+            <span class="orange">Laranja</span>
+          </label>
+          <label class="black checkbox hide invisible">
+            <input type="checkbox" class="black filterColorsAndSize">
+            <span class="black">Preto</span>
+          </label>
+          <label class="pink checkbox hide invisible">
+            <input type="checkbox" class="pink filterColorsAndSize">
+            <span class="pink">Rosa</span>
+          </label>
+          <a class="more-colors" href="#">Ver todas as cores<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+
+        </div>
+
+        <h4>TAMANHOS</h4>
+        <div class="filter-box sizes/">
+          <label class="checkbox-size">
+            <input type="checkbox" class="P filterColorsAndSize">
+            <span class="size-p">&nbspP</span>
+          </label>
+
+          <label class="checkbox-size">
+            <input type="checkbox" class="M filterColorsAndSize">
+            <span class="size-m">&nbspM</span>
+          </label>
+
+          <label class="checkbox-size">
+            <input type="checkbox" class="G filterColorsAndSize">
+            <span class="size-g">&nbspG</span>
+          </label>
+
+          <label class="checkbox-size">
+            <input type="checkbox" class="GG filterColorsAndSize">
+            <span class="size-gg">GG</span>
+          </label>
+
+          <label class="checkbox-size">
+            <input type="checkbox" class="U filterColorsAndSize">
+            <span class="size-u">&nbspU</span>
+          </label>
+          <label class="checkbox-size">
+            <input type="checkbox" class="36 filterColorsAndSize">
+            <span for="size-36">&nbsp36</span>
+          </label>
+          <label class="checkbox-size">
+            <input type="checkbox" class="38 filterColorsAndSize">
+            <span for="size-38">&nbsp38</span>
+          </label>
+          <label class="checkbox-size">
+            <input type="checkbox" class="40 filterColorsAndSize">
+            <span for="size-40">&nbsp40</span>
+          </label>
+          <label class="checkbox-size">
+            <input type="checkbox" class="42 filterColorsAndSize">
+            <span for="size-42">&nbsp42</span>
+          </label>
+          <label class="checkbox-size">
+            <input type="checkbox" class="44 filterColorsAndSize">
+            <span for="size-44">&nbsp44</span>
+          </label>
+          <label class="checkbox-size">
+            <input type="checkbox" class="46 filterColorsAndSize">
+            <span for="size-46">&nbsp44</span>
+          </label>
+        </div>
+
+        <div class="filter-box prices">
+          <h4>FAIXA DE PREÇO</h4>
+          <label class="checkbox">
+            <input type="checkbox" class="first-price price filterPrice">
+            <span>de R$0 até R$50</span>
+          </label>
+          <label class=" checkbox">
+            <input type="checkbox" class="second-price price filterPrice">
+            <span>de R$51 até R$150</span>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" class="third-price price filterPrice">
+            <span>de R$151 até R$300</span>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" class="fourth-price price filterPrice">
+            <span>de R$301 até R$500</span>
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" class="fifth-price price filterPrice">
+            <span>a partir de R$1,00</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="products-container">
+        <div class="order-by">
+          <span>Ordenar por:<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          <div class="order-content">
+            <p class="order-recent">Mais recentes</p>
+            <p class="order-minor-price">Menor preço</p>
+            <p class="order-greater-price">Maior preço</p>
+          </div>
+        </div>
+        <div class="mobile-buttons hide">
+          <div class="filter-btn-mobile open-modal-filter">Filtrar</div>
+          <div class="order-btn-mobile open-modal-filter">Ordenar</div>
+        </div>
+        <div class="products">
+        </div>
+        <button type="submit" class="load-more">CARREGAR MAIS</button>
+    </main>
+  </div>
+  <footer>
+    <p>Agência M3 - Agência de Performance Digital</p>
+  </footer>
+
+  <!-- Modal and Models -->
+  <div class="modal-mobile filter-mobile hide invisible">
+    <p>FILTRAR <i class="fas fa-times filter-mobile"></i></p>
+    <hr>
+    <h4>CORES <i class=" fas fa-plus"></i></h4>
+    <div class="filter-box colors hide invisible">
+      <label class="yellow checkbox">
+        <input type="checkbox" class="yellow filterColorsAndSize">
+        <span class="yellow">Amarelo</span>
+      </label>
+      <label class="blue checkbox">
+        <input type="checkbox" class="blue filterColorsAndSize">
+        <span class="blue">Azul</span>
+      </label>
+      <label class="white checkbox">
+        <input type="checkbox" class="white filterColorsAndSize">
+        <span class="white">Branco</span>
+      </label>
+      <label class="grey checkbox" class="grey filterColorsAndSize">
+        <input type="checkbox" class="grey">
+        <span class="grey">Cinza</span>
+      </label>
+      <label class="orange checkbox">
+        <input type="checkbox" class="orange filterColorsAndSize">
+        <span class="orange">Laranja</span>
+      </label>
+      <label class="black checkbox">
+        <input type="checkbox" class="black filterColorsAndSize">
+        <span class="black">Preto</span>
+      </label>
+      <label class="pink checkbox">
+        <input type="checkbox" class="pink filterColorsAndSize">
+        <span class="pink">Rosa</span>
+      </label>
+    </div>
+
+    <h4>TAMANHOS <i class="fas fa-plus hide"></i></h4>
+    <div class="filter-box sizes hide invisible">
+      <label class="checkbox-size">
+        <input type="checkbox" class="P filterColorsAndSize">
+        <span for="size-p">&nbspP</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="M filterColorsAndSize">
+        <span for="size-m">&nbspM</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="G filterColorsAndSize">
+        <span for="size-g">&nbspG</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="GG filterColorsAndSize">
+        <span for="size-gg">GG</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="U filterColorsAndSize">
+        <span for="size-u">&nbspU</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="36 filterColorsAndSize">
+        <span for="size-36">&nbsp36</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="38 filterColorsAndSize">
+        <span for="size-38">&nbsp38</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="40 filterColorsAndSize">
+        <span for="size-40">&nbsp40</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="42 filterColorsAndSize">
+        <span for="size-42">&nbsp42</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="44 filterColorsAndSize">
+        <span for="size-44">&nbsp44</span>
+      </label>
+      <label class="checkbox-size">
+        <input type="checkbox" class="46 filterColorsAndSize">
+        <span for="size-46">&nbsp44</span>
+      </label>
+    </div>
+
+    <h4>FAIXA DE PREÇO <i class="fas fa-plus hide"></i></h4>
+    <div class="filter-box prices hide invisible">
+      <label class="checkbox">
+        <input type="checkbox" class="first-price price filterPrice">
+        <span>de R$0 até R$50</span>
+      </label>
+      <label class=" checkbox">
+        <input type="checkbox" class="second-price price filterPrice">
+        <span>de R$51 até R$150</span>
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" class="third-price price filterPrice">
+        <span>de R$151 até R$300</span>
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" class="fourth-price price filterPrice">
+        <span>de R$301 até R$500</span>
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" class="fifth-price price filterPrice">
+        <span>a partir de R$1,00</span>
+      </label>
+    </div>
+    <div class="filter-buttons">
+      <div class="reset">Limpar</div>
+    </div>
+  </div>
+
+  <div class="modal-mobile order-mobile hide invisible">
+    <p>ORDERNAR <i class="fas fa-times order-mobile"></i></p>
+    <hr>
+    <h4 class="order-recent">Mais recentes</h4>
+    <h4 class="order-minor-price">Menor preço</h4>
+    <h4 class="order-greater-price">Maior preço</h4>
+  </div>
+</body>
+
+</html>
