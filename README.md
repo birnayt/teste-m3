@@ -8,7 +8,7 @@ O projeto foi desenvolvido como um teste para a vaga de estaǵio de desenvolvedo
 
 1- Baixar os arquivos
 
-2- Abrir index.html com um servidor local(Live Server) para poder importar o arquivo com o JSON
+2- Abrir index.html com um servidor local(Live Server) para o JavaScript poder importar o arquivo com o JSON
 
 ---
 
